@@ -1,0 +1,237 @@
+.conteiner {
+    max-width: 1300px;
+    height: 4000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    margin: 0;
+    background-color: #171717;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+  }
+
+  button {
+    font-family: Ballet;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E4B564;
+    border-color: #E4B564;
+    background-color: black;
+  }
+
+  .h1 {
+    font-family: Gilam;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    /* margin-left: 10%; */
+  }
+
+  .p {
+    font-family: Gilam;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 65%;
+    height: 56px;
+    top: 276px;
+    left: 230px;
+  }
+
+  .list {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 25px;
+    padding: 0;
+
+  }
+
+  .item {
+    height: 467px;
+  }
+
+  .item1 {
+    grid-column: 1/3;
+    background-color: #634F2C;
+  }
+
+  .item2 {
+    grid-column: 3/5;
+    background-color: #B4A385;
+  }
+
+  .item3 {
+    grid-column: 5/7;
+    background-color: #E4B564;
+  }
+
+  .item4 {
+    grid-column: 1/4;
+    background-color: #635A4A;
+  }
+
+  .item5 {
+    grid-column: 4/7;
+    background-color: #B08C4D;
+  }
+
+  .landing-1 {
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  h2 {
+    font-family: Gilam;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+
+  }
+
+  li {
+    list-style-type: none;
+    text-align: center;
+    font-family: Gilam;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+  }
+
+  .item p {
+    padding-top: 200px;
+  }
+  .heating-networks-list {
+    display: grid;
+    grid-template-rows: repeat(2, 500px);
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 27px;
+    column-gap: 29.5px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    grid-template-areas:
+      "heating-networks-item-1 heating-networks-item-1 heating-networks-item-2 heating-networks-item-2 heating-networks-item-3 heating-networks-item-3"
+      "heating-networks-item-4 heating-networks-item-4 heating-networks-item-4 heating-networks-item-5 heating-networks-item-5 heating-networks-item-5";
+    padding-left: 0;
+  }
+
+  .heating-networks-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 51px;
+  }
+
+  .heating-networks-item-1 {
+    grid-area: heating-networks-item-1;
+    background-color: #0E0E0E;
+  }
+
+  .heating-networks-item-2 {
+    grid-area: heating-networks-item-2;
+    background-color: #242424;
+  }
+
+  .heating-networks-item-3 {
+    grid-area: heating-networks-item-3;
+    background-color: #1F1F1F;
+  }
+
+  .heating-networks-item-4 {
+    grid-area: heating-networks-item-4;
+    background-color:#1F1F1F ;
+  }
+
+  .heating-networks-item-5 {
+    grid-area: heating-networks-item-5;
+    background-color: #E4B564;
+  }
+ .head_bloc{
+    padding-left: 30px;
+    padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+ }
+ .teaxt2{
+  background-color:#0E0E0E;
+ }
+
+ 
+  .bloc2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    list-style-type: none;
+    margin-left: 0;
+    padding:0;
+  }
+
+  .bloc_item:nth-child(1) {
+    background-color: #634F2C;
+  }
+  
+  .bloc_item:nth-child(2) {
+    background-color: #E8D2ABC2;
+  }
+  
+  .bloc_item:nth-child(3) {
+    background-color: #E4B564;
+  }
+  
+  .bloc_item:nth-child(4) {
+    background-color: #635A4A;
+  }
+  
+  .bloc_item:nth-child(5) {
+    background-color: #B08C4D;
+  }
+  
+  .bloc_item:nth-child(6) {
+    background-color: #634F2C;
+  }
+  
+  .bloc_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bloc_item p {
+    margin: 0;
+  }
+  
+  .bloc_item img {
+    max-width: 100%;
+    height: auto;
+   
+  }
